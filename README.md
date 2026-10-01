@@ -4,6 +4,10 @@ ERP de controle financeiro pessoal para gerenciamento de receitas, despesas, dí
 
 Painel visual em tema escuro, conectado a uma planilha do Google Sheets. Tudo que é lançado nas abas de Receitas, Despesas e Dívidas aparece no painel automaticamente, sem precisar editar o código.
 
+## Demonstração
+
+[▶ Assistir ao vídeo de demonstração (cerca de 1 minuto)](demo.mp4)
+
 ## O que o painel mostra
 
 - Receitas, despesas e saldo previsto do período, com comparação contra o mês anterior.

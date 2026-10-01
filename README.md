@@ -10,6 +10,10 @@ Painel visual em tema escuro, conectado a uma planilha do Google Sheets. Tudo qu
 
 ## O que o painel mostra
 
+
+https://github.com/user-attachments/assets/9f93155e-4bfa-4271-afb1-dbe622839abc
+
+
 - Receitas, despesas e saldo previsto do período, com comparação contra o mês anterior.
 - Cards de média e mediana: receita e despesa média por mês, por dia e por lançamento.
 - Resumo do período: recebido, a receber, pago, a pagar, sobra realizada e sobra prevista.

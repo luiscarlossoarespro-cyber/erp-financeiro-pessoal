@@ -6,7 +6,7 @@ Painel visual em tema escuro, conectado a uma planilha do Google Sheets. Tudo qu
 
 ## Demonstração
 
-[▶ Assistir ao vídeo de demonstração (cerca de 1 minuto)](demo.mp4)
+[▶ Assistir ao vídeo de demonstração (2 min 41 s)](demo.mp4)
 
 ## O que o painel mostra
 

@@ -11,7 +11,10 @@ Painel visual em tema escuro, conectado a uma planilha do Google Sheets. Tudo qu
 ## O que o painel mostra
 
 
-https://github.com/user-attachments/assets/9f93155e-4bfa-4271-afb1-dbe622839abc
+
+https://github.com/user-attachments/assets/611f725d-c4df-4b61-8e24-7499593afe40
+
+
 
 
 - Receitas, despesas e saldo previsto do período, com comparação contra o mês anterior.

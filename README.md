@@ -11,6 +11,10 @@
 <!-- ARRASTE O VÍDEO AQUI (linha de baixo) -->
 
 
+https://github.com/user-attachments/assets/fa39d502-ed7c-4e7b-b598-df693a0cb624
+
+
+
 [![Prévia do dashboard — clique para abrir a demonstração ao vivo](assets/cover.png)](https://luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal/)
 
 <p align="center"><sub>Demonstração com <b>dados 100% fictícios</b>. Nenhum dado financeiro real está neste repositório.</sub></p>

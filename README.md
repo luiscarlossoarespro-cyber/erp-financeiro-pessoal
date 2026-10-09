@@ -68,7 +68,7 @@ O controle deixa de ser "olhar o saldo" e vira uma **rotina mensal de decisão**
 - **Camada de cálculo:** duas abas de gestão (Gestão Estratégica e Decisões · Sprint) calculam tudo com fórmulas (LET, ARRAYFORMULA, FILTER, MAP/LAMBDA, QUERY). O dashboard só lê, não recalcula: uma única fonte da verdade.
 - **Qualidade:** 7 verificações automáticas (campos vazios, vencidos, duplicidades) geram um índice de confiança.
 - **Estrutura do dashboard (12 blocos):** Centro de comando · Gargalos · Caminho estratégico · Movimento · Onde está o dinheiro · Alertas · Dívidas · Bancos · Sprint · Decisões · Ficha e busca · Confiança.
-- **Arquivos:** `index.html` é a versão atual (demo). `dashboard.html` e `demo.mp4` são da versão 1, mantidos como histórico.
+- **Versões:** `index.html` é a versão atual (demonstração com dados fictícios). A versão 1 fica como histórico: `dashboard.html` (painel ligado à planilha real, por isso abre sem dados fora do Claude) e [`demo.mp4`](demo.mp4) (vídeo da versão 1).
 
 </details>
 

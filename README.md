@@ -1,93 +1,80 @@
-# ERP Financeiro Pessoal — Dashboard Estratégico
+<h1 align="center">ERP Financeiro Pessoal — Dashboard Estratégico</h1>
 
-> Sistema de gestão financeira pessoal que transforma lançamentos do dia a dia em **diagnóstico, prioridades e decisões**: do dado bruto ao plano de ação.
+<p align="center"><b>Do dado bruto à decisão:</b> um dashboard que mostra onde está o problema, o que fazer primeiro e se os dados são confiáveis.</p>
 
-![Google Sheets](https://img.shields.io/badge/Google%20Sheets-modelagem%20e%20f%C3%B3rmulas-34A853?style=flat-square&logo=googlesheets&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML-CSS-E34F26?style=flat-square&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-SVG-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![IA](https://img.shields.io/badge/IA%20generativa-Claude-D97757?style=flat-square)
-![Status](https://img.shields.io/badge/status-em%20uso%20real-6fa8ff?style=flat-square)
+<p align="center">
+  <a href="https://luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal/"><img src="https://img.shields.io/badge/%E2%96%B6%20Ver%20dashboard%20ao%20vivo-abrir%20demonstra%C3%A7%C3%A3o-5ee0a0?style=for-the-badge" alt="Ver dashboard ao vivo"></a>
+  <a href="https://luiscarlossoarespro-cyber.github.io/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-outros%20projetos-6fa8ff?style=for-the-badge" alt="Portfólio"></a>
+  <a href="https://www.linkedin.com/in/luiscarlos-log/"><img src="https://img.shields.io/badge/LinkedIn-conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
-[![Prévia do dashboard](assets/cover.png)](https://luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal/)
+<!-- ARRASTE O VÍDEO AQUI (linha de baixo) -->
 
-## Acesse
 
-| | |
-|---|---|
-| **Demonstração ao vivo** | [luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal](https://luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal/) |
-| **Versão 1 do painel** | [dashboard.html](dashboard.html) · [vídeo da v1](demo.mp4) |
+[![Prévia do dashboard — clique para abrir a demonstração ao vivo](assets/cover.png)](https://luiscarlossoarespro-cyber.github.io/erp-financeiro-pessoal/)
 
-> **Privacidade:** a demonstração usa **dados 100% fictícios**. Nenhum dado financeiro real e nenhum identificador de planilha estão neste repositório.
+<p align="center"><sub>Demonstração com <b>dados 100% fictícios</b>. Nenhum dado financeiro real está neste repositório.</sub></p>
 
 ---
 
-## 1. Problema de negócio
+## O problema
 
-Controlar finanças em planilha costuma parar no "quanto entrou e quanto saiu". O problema real é outro: **saber onde está o gargalo, o que fazer primeiro e se as decisões estão funcionando**. Sem isso, os mesmos erros se repetem todo mês: contas atrasadas, tarifas, gastos por impulso e dívidas sem acordo.
+Controlar finanças em planilha costuma parar no "quanto entrou e quanto saiu". O que realmente importa é outra coisa: **onde está o gargalo, o que fazer primeiro e se as decisões estão funcionando.** Sem isso, os mesmos erros se repetem todo mês.
 
-## 2. Perguntas que o projeto responde
+## O que o dashboard responde
 
-- Qual é o **maior gargalo** das minhas finanças agora, e qual decisão ataca ele?
-- Em que **fase** estou (estancar a perda → estabilizar → construir patrimônio) e quais metas faltam?
-- Para onde foi o dinheiro no mês, e **onde dá para cortar**?
-- Quais contas estão **vencidas**, quais tiveram **aumento fora do normal** e quais parecem **lançadas em duplicidade**?
-- Quanto devo, **para quem** e em que situação?
-- Quanto cada **banco** movimentou e **quanto cobrou** em tarifas e juros?
-- O que se **repetiu nos últimos 3 meses**, quanto isso custou e as regras do mês estão sendo cumpridas?
-
-## 3. Dados
-
-- **Fonte:** planilha Google Sheets com 3 cadastros (Receitas, Despesas e Dívidas), lançados manualmente no dia a dia.
-- **Camada analítica:** duas abas de gestão (*Gestão Estratégica* e *Decisões · Sprint*) calculam tudo com fórmulas: o dashboard **só lê**, não recalcula (fonte única da verdade).
-- **Regras de qualidade:** 7 verificações automáticas (campos vazios, vencidos, duplicidades) geram um índice de **confiança dos dados**.
-
-## 4. Ferramentas
-
-| Camada | Ferramenta |
+| Pergunta | Onde a resposta aparece |
 |---|---|
-| Modelagem e cálculo | Google Sheets (`LET`, `ARRAYFORMULA`, `FILTER`, `MAP/LAMBDA`, `QUERY`), validação de dados, intervalos nomeados |
-| Visualização | HTML, CSS e JavaScript puro · gráficos desenhados em SVG, sem bibliotecas |
-| Desenvolvimento | Construído com apoio de IA generativa (Claude) a partir das regras e indicadores que eu defini |
-| Métodos | Conceitos de **SAP MM** (MM03, MMBE, ME51N, ME2L) e de **gestão ágil** (sprint, backlog, kanban, retrospectiva) adaptados às finanças pessoais |
+| Qual é o maior problema agora e qual decisão resolve? | **Centro de comando** e **Gargalos** |
+| Para onde foi o dinheiro e onde dá para cortar? | **Movimento** e **Onde está o dinheiro** |
+| Quais contas venceram, subiram fora do normal ou estão duplicadas? | **Alertas** |
+| Quanto devo, para quem e quando vence? | **Dívidas** |
+| Quanto cada banco cobrou em tarifas e juros? | **Bancos** |
+| O plano do mês está sendo cumprido? | **Sprint** e **Decisões** |
+| Posso confiar nesses números? | **Confiança dos dados** |
 
-## 5. Solução
+## Destaques
 
-O dashboard é dividido em 12 blocos, na ordem em que uma decisão é tomada:
+- 🎯 **Centro de comando** — resultado do mês, comprometimento da renda, maior gargalo e próxima decisão em uma tela
+- 🚨 **Auditoria automática** — aponta contas vencidas, aumentos fora do padrão e lançamentos duplicados
+- 📅 **Movimento do dinheiro** — gráfico anual (realizado x previsto), fluxo diário e calendário com filtros
+- 🧭 **Plano de decisões** — cada gargalo vira uma tarefa com prioridade, em ciclos curtos (sprint)
+- ✅ **Confiança dos dados** — 7 verificações de qualidade antes de qualquer decisão
+- ✨ **Visual com movimento** — números e gráficos surgem ao rolar a página ou trocar o filtro
 
-1. **Centro de comando:** fase atual, maior gargalo, próxima decisão e os 5 passos do ciclo da decisão (informação → conhecimento → decisão → ação → aprendizado).
-2. **Gargalos:** ranking do mais grave ao menos grave, com índice de gravidade e decisão ligada.
-3. **Caminho estratégico:** 3 fases com metas mensuráveis.
-4. **Movimento do dinheiro:** gráfico anual (realizado x previsto), fluxo diário com saldo projetado e calendário interativo.
-5. **Onde está o dinheiro:** categorias, maiores lançamentos, recorrências e onde cortar.
-6. **Alertas:** auditoria de contas (vencidas, aumentos, sem valor, duplicidades) e pendências por fornecedor.
-7. **Dívidas:** saldo por credor, por situação e próximos vencimentos.
-8. **Bancos:** movimento e custo de cada conta.
-9. **Sprint do mês:** retrospectiva de 3 meses, custo dos "buracos", placar das regras, indicadores meta x real e simulador de cenários.
-10. **Decisões:** backlog gerado pelos dados + quadro kanban + registro de aprendizado + calibragem (o usuário ensina o que é ou não é gargalo).
-11. **Ficha e busca:** tudo sobre um item (total pago, média, último pagamento, próximo vencimento) em uma busca.
-12. **Confiança dos dados:** as verificações de qualidade.
+## Como foi feito
 
-**Experiência:** números contam do zero até o valor, barras crescem e blocos entram em sequência ao rolar a página ou trocar o filtro.
+| Etapa | Ferramenta |
+|---|---|
+| Base de dados e cálculos | Google Sheets |
+| Dashboard | HTML, CSS e JavaScript (gráficos próprios, sem bibliotecas) |
+| Desenvolvimento | Apoio de IA (Claude) a partir das regras e indicadores que eu defini |
+| Métodos | Gestão ágil (sprint, backlog, kanban) aplicada às finanças |
 
-## 6. Principais resultados
+## Resultado
 
-- O controle deixa de ser só "olhar o saldo" e vira uma **rotina de decisão mensal**: cada gargalo gera uma decisão com valor em jogo, prioridade e status.
-- A auditoria automática aponta **contas vencidas, aumentos fora do padrão e lançamentos duplicados** sem conferência manual.
-- O **custo de cada banco** deixa visível quanto tarifas e juros pesam no mês, e esse gargalo entra no backlog como decisão.
+O controle deixa de ser "olhar o saldo" e vira uma **rotina mensal de decisão**: cada problema encontrado gera uma ação com valor em jogo, prioridade e status.
 
-## 7. Como usar
+<details>
+<summary><b>Detalhes técnicos</b> (para quem quer ver por dentro)</summary>
 
-- **Ver a demonstração:** abra o link da demonstração ao vivo (funciona em qualquer navegador).
-- **Navegar:** use as abas do topo; o filtro de **Ano e Mês** remonta a parte de movimento; a **busca** aceita descrição, categoria, fornecedor ou banco.
+<br>
 
-## 8. Aprendizados e próximos passos
+- **Fonte:** 3 cadastros no Google Sheets (Receitas, Despesas e Dívidas), lançados no dia a dia.
+- **Camada de cálculo:** duas abas de gestão (Gestão Estratégica e Decisões · Sprint) calculam tudo com fórmulas (LET, ARRAYFORMULA, FILTER, MAP/LAMBDA, QUERY). O dashboard só lê, não recalcula: uma única fonte da verdade.
+- **Qualidade:** 7 verificações automáticas (campos vazios, vencidos, duplicidades) geram um índice de confiança.
+- **Estrutura do dashboard (12 blocos):** Centro de comando · Gargalos · Caminho estratégico · Movimento · Onde está o dinheiro · Alertas · Dívidas · Bancos · Sprint · Decisões · Ficha e busca · Confiança.
+- **Arquivos:** `index.html` é a versão atual (demo). `dashboard.html` e `demo.mp4` são da versão 1, mantidos como histórico.
 
-- **Aprendi:** modelar uma base financeira com fonte única da verdade, definir KPIs que levam a decisão (e não só a relatório) e transformar regras de negócio em especificação para desenvolvimento com IA.
-- **Próximos passos:** saldo real por conta (saldo inicial + movimento), metas anuais e versão em Power BI.
+</details>
+
+## Próximos passos
+
+Saldo real por conta, metas anuais e uma versão em Power BI.
 
 ---
 
-## Autor
-
-**Luis Carlos Machado Soares** · mais de 16 anos em operações e logística, em transição para Análise de Dados
-[LinkedIn](https://www.linkedin.com/in/luiscarlos-log) · [Portfólio](https://luiscarlossoarespro-cyber.github.io/)
+<p align="center">
+<b>Luis Carlos Machado Soares</b> · mais de 16 anos em operações e logística, aplicando Análise de Dados à tomada de decisão<br>
+<a href="https://www.linkedin.com/in/luiscarlos-log/">LinkedIn</a> · <a href="https://luiscarlossoarespro-cyber.github.io/">Portfólio</a> · <a href="https://github.com/luiscarlossoarespro-cyber">GitHub</a>
+</p>

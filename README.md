@@ -89,5 +89,5 @@ O dashboard é dividido em 12 blocos, na ordem em que uma decisão é tomada:
 
 ## Autor
 
-**Luis Carlos Machado Soares** · 19 anos em logística e operações, em transição para Análise de Dados
+**Luis Carlos Machado Soares** · mais de 16 anos em operações e logística, em transição para Análise de Dados
 [LinkedIn](https://www.linkedin.com/in/luiscarlos-log) · [Portfólio](https://luiscarlossoarespro-cyber.github.io/)
